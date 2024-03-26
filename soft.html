@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Development | Software Development | System Integration</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="images/nigus-favicon.png" rel="icon" type="image/x-icon" />
+    <link
+      href="//fonts.googleapis.com/css?family=Montserrat:300,400,700%7CPoppins:300,400,500,700,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style type="text/css">
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ie-panel">
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+        ><img
+          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+          height="42"
+          src="images/ie8-panel/warning_bar_0000_us.jpg"
+          width="820"
+      /></a>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+
+        <p>Loading...</p>
+      </div>
+    </div>
+
+    <div class="page">
+      <header class="section page-header">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav
+            class="rd-navbar rd-navbar-classic"
+            data-layout="rd-navbar-fixed"
+            data-lg-device-layout="rd-navbar-static"
+            data-lg-layout="rd-navbar-static"
+            data-lg-stick-up="true"
+            data-lg-stick-up-offset="46px"
+            data-md-device-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed"
+            data-sm-layout="rd-navbar-fixed"
+            data-xl-device-layout="rd-navbar-static"
+            data-xl-layout="rd-navbar-static"
+            data-xl-stick-up="true"
+            data-xl-stick-up-offset="46px"
+            data-xxl-stick-up="true"
+            data-xxl-stick-up-offset="46px"
+          >
+            <div
+              class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
+              data-rd-navbar-toggle=".rd-navbar-collapse"
+            ></div>
+
+            <div class="rd-navbar-aside-outer rd-navbar-collapse nav-top">
+              <div class="rd-navbar-aside nav-top-inn">
+                <ul class="list-inline navbar-contact-list">
+                  <!-- <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-left"><span class="icon text-middle fa-phone"></span></div>
+                      <div class="unit-body"><a href="tel:#">+91 98806 98312</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-left"><span class="icon text-middle fa-envelope"></span></div>
+                      <div class="unit-body"><a href="mailto:#">sales@nigussystems.com</a></div>
+                    </div>
+                  </li> -->
+                </ul>
+
+                <ul class="social-links">
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-body">
+                        <a href="tel:#">+91 98806 98312</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-body">
+                        <a href="mailto:#">sales@nigussystems.com</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li><label class="contact-label">Contact</label></li>
+                  <li>
+                    <button class="support-button linearicons-user">
+                      �&nbsp;Sales
+                    </button>
+                  </li>
+                  <li>
+                    <button class="support-button linearicons-headset">
+                      �&nbsp;Support
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main nav-bottom-inn">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle--><button
+                    class="rd-navbar-toggle"
+                    data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                  ></button
+                  ><!--RD Navbar Brand-->
+
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a
+                      class="brand"
+                      href="http://www.nigussystems.com"
+                      ><img
+                        alt=""
+                        class="brand-logo-dark"
+                        height="17"
+                        src="images/nigus-logo.png"
+                        style="height: 47px"
+                        width="100"
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="index.html"
+                          >Web Development</a
+                        >
+                      </li>
+                      <li class="rd-nav-item active">
+                        <a class="rd-nav-link" href="soft.html"
+                          >Software Development</a
+                        >
+                      </li>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="integ.html"
+                          >System Integration</a
+                        >
+                      </li>
+                      <!--   <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                      </li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- crm intro -->
+
+      <section
+        class="section section-intro context-dark solutions-main animation1"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 crmsec1" style="">
+              <h4 class="h2-one" style="color: black; margin-left: 0">
+                Empower growth journey with advanced Enterprise Software
+                Solutions
+              </h4>
+
+              <p class="crm-sec1-left" style="color: black">
+                Retaining customers through customer relationships has been one
+                of the most important components in conducting successful
+                business.
+              </p>
+            </div>
+
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+              <div class="image-figure">
+                <!-- <img alt="crm-integration" src="images/crm-integration.png" /> -->
+                <dotlottie-player
+                  src="https://lottie.host/ef24eb5a-ac5d-4019-a31e-eba65d20c763/yMh4GqcExC.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 500px; height: 300px"
+                  loop
+                  autoplay
+                ></dotlottie-player>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- crm integration description -->
+
+      <section
+        class="section custom-section position-relative section-md reveal animation2"
+        style="padding: 12px"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-12">
+              <h3
+                class="devider-left h3_main business-phone-H3 text-black"
+                style=""
+              >
+                Enterprise Software and Applications
+              </h3>
+
+              <div class="row row-15">
+                <div class="col-xl-12">
+                  <div class="box-default">
+                    <p class="box-default-description text-black">
+                      Customer interactions are crucial in all aspects of
+                      business, whether dealing with products or services, not
+                      just in this digital age. There are various benefits and
+                      values of enterprise software solutions. The use of
+                      enterprise software solutions is for a variety of reasons.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Icon List--><!--       <section class="section section-lg bg-default">
+        <div class="container">
+          <h3>Icon List</h3>
+          <div class="row row-30">
+            <div class="cell-xs-10 col-md-6 col-lg-4">
+              <article class="box-minimal">
+                <div class="box-minimal-icon fa fa-thumbs-up"></div>
+                <h4 class="box-minimal-title">Best Service</h4>
+                <div class="box-minimal-text">
+                  <p>Our mission is to attract and retain customers by providing Best in Class solutions and fostering a profitable, disciplined culture of safety, service, and trust.</p>
+                </div>
+              </article>
+            </div>
+            <div class="cell-xs-10 col-md-6 col-lg-4">
+              <article class="box-minimal">
+                <div class="box-minimal-icon fa fa-group"></div>
+                <h4 class="box-minimal-title">Reputation</h4>
+                <div class="box-minimal-text">
+                  <p>We have established a strong presence in the industry. Our award-winning services earn a reputation for quality and excellence that few can rival.</p>
+                </div>
+              </article>
+            </div>
+            <div class="cell-xs-10 col-md-6 col-lg-4">
+              <article class="box-minimal">
+                <div class="box-minimal-icon fa fa-lock"></div>
+                <h4 class="box-minimal-title">Safety & Security</h4>
+                <div class="box-minimal-text">
+                  <p>Safety for our employees, customers and the community we work with will always remain our primary focus in all the policies, procedures and programs.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section> --><!--The importance of customer relationship-->
+
+      <section
+        class="section section-lg bg-default solutions-inn reveal animation3"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="ol-md-12 col-xl-12 col-lg-12">
+              <div class="row row-30 flex-md-row-reverse">
+                <!--<h4 class="h4 align-items-center text-black">Efficiency Redefined: The Future of Enterprise Software is Here</h4>
+-->
+                <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12">
+                  <!-- <img
+                    alt="importance of customer relationship management"
+                    class="rLM"
+                    src="images/importance-cust-relationship.png"
+                    style=""
+                  /> -->
+                  <dotlottie-player
+                    src="https://lottie.host/94dac357-1c7c-46a9-a7a7-91f38ece1605/FQWaTAVyGK.json"
+                    background="transparent"
+                    speed="1"
+                    style="width: 500px; height: 500px"
+                    loop
+                    autoplay
+                  ></dotlottie-player>
+                </div>
+
+                <div class="col-md-6 col-xl-6 col-lg-6">
+                  <ul class="ul crm-ul-1 text-black">
+                    <li class="li crm-li-1">
+                      Implementing our enterprise software is a seamless
+                      process, involving strategic integration, scalable
+                      deployment, and tailored customization to align with your
+                      unique business needs. Witness the transformation as your
+                      organization embraces cutting-edge technology for enhanced
+                      efficiency and sustainable growth.
+                    </li>
+                    <p></p>
+                    <li class="li crm-li-1">
+                      Customization options that allow organizations to tailor
+                      the software to their specific workflows and business
+                      processes, providing flexibility to meet unique
+                      requirements.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- How a CRM system is put into practice  -->
+
+      <section
+        class="section section-lg bg-default solutions-inn reveal animation2"
+        style="padding-top: 38px"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-xl-12">
+              <div class="row row-30">
+                <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                  <h4
+                    class="h4 align-items-center text-black"
+                    style="text-align: center"
+                  >
+                    Seamlessly integrate enterprise software for optimal
+                    efficiency
+                  </h4>
+
+                  <div
+                    class="col-xl-12 col-lg-12 col-md-12 col-sm-12 image-container1"
+                  >
+                    <img alt="CRM system" src="images/crm-system.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Real time calling information-->
+
+      <section
+        class="section section-lg bg-default solutions-inn reveal animation3"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-xl-12">
+              <div class="row row-30">
+                <div class="col-md-6 col-lg-6">
+                  <img
+                    alt="Real time calling information"
+                    src="images/realtime-calling.gif"
+                  />
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <h4 class="h4 text-black">
+                    Elevate Business with Cutting-Edge Enterprise Software
+                    Solutions
+                  </h4>
+                  <p class="text-black">
+                    Elevate business with cutting-edge enterprise software
+                    solutions. Streamline operations, enhance collaboration, and
+                    drive growth with seamless integration and customizable
+                    features. Unlock the full potential of your organization and
+                    stay ahead in today's dynamic business landscape.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- quickest growth is customer relationship management-->
+
+      <section
+        class="section section-lg bg-default solutions-inn reveal animation4"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-xl-12 col-lg-12 crm-growthDiv">
+              <div class="row row-30 flex-md-row-reverse">
+                <div class="col-md-6 col-lg-6 growthInn1">
+                  <div class="right-sec-white">
+                    <h5>
+                      Efficiency at its Core: Embrace the Power of Enterprise
+                      Software
+                    </h5>
+
+                    <p>
+                      Optimize every aspect of business with enterprise
+                      software, where efficiency is not just a feature but the
+                      core of a transformative digital experience.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-xl-6 col-lg-6 growthInn2">
+                  <!--<h5 style="color: #ffffff;">Quickest growth is customer relationship management</h5>-->
+                  <p>
+                    Streamline operations, boost productivity, and embrace a new
+                    era of efficiency with innovative enterprise software
+                    tailored for businesses.
+                  </p>
+                  <p></p>
+                  <ul class="ul crm-ul-2">
+                    <li class="li crm-li-2">
+                      Explore unparalleled integration capabilities and unlock
+                      endless possibilities for growth and success with advanced
+                      enterprise software solutions.
+                    </li>
+                    <p></p>
+                    <li class="li crm-li-2">
+                      Step into the future with visionary enterprise software,
+                      designed to propel businesses forward by embracing
+                      cutting-edge technology and fostering innovation.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--CRM requirements-->
+
+      <section
+        class="section section-lg bg-default solutions-inn reveal animation5"
+        style="padding: 20px"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-xl-12">
+              <h4 class="h4" style="text-align: center">
+                Navigate Growth with Confidence: Enterprise Software for
+                Tomorrow
+              </h4>
+
+              <div class="row row-30 secLastRow" style="">
+                <div
+                  class="col-md-12 col-lg-12 col-xl-12 col-sm-12 grid-main crm-secLast"
+                  style=""
+                >
+                  <div class="img-main">
+                    <div class="image-container">
+                      <!-- <img
+                        alt="customer-centric-goals"
+                        class="customer-centric"
+                        src="images/customer-requirements.png"
+                      /> -->
+                      <dotlottie-player
+                        src="https://lottie.host/94368aa6-7bf8-48d2-9964-b48ff9958d07/9L3qTYKFG9.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 300px; height: 300px"
+                        loop
+                        autoplay
+                      ></dotlottie-player>
+                    </div>
+                  </div>
+
+                  <div class="content-main">
+                    <div class="text-container">
+                      <p class="text-P text-black">
+                        Empower businesses to navigate the complexities of
+                        growth confidently, supported by advanced enterprise
+                        software designed for tomorrow's challenges.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- integration -->
+
+      <section
+        class="section section-lg bg-default solutions-inn reveal animation1"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-xl-12">
+              <div class="row row-30">
+                <div class="col-md-12 col-lg-12">
+                  <h4
+                    class="text-black"
+                    style="text-align: center; margin-bottom: 15px"
+                  >
+                    Augment operations through seamless integration of
+                    additional applications.
+                  </h4>
+                  <img
+                    alt="softwares-logos"
+                    src="images/slider.gif"
+                    style="border-radius: 12px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Footer-->
+
+      <footer class="section footer-classic section-sm">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-lg-4">
+              <!--Brand--><a class="brand" href="http://www.nigussystems.com"
+                ><img
+                  alt="nigus-logo"
+                  class="brand-logo-light"
+                  height="17"
+                  src="images/nigus-logo.png"
+                  style="height: 53px"
+                  width="100"
+              /></a>
+
+              <h5 class="logo-company">
+                <span>Nigus Systems Private Limited</span>
+              </h5>
+
+              <p
+                class="footer-classic-description offset-top-0 offset-right-25"
+              >
+                We work across 24 x 7 to help you run your business without any
+                hassle.
+              </p>
+              <ul class="social-links footer-classic-links">
+                <li>
+                  <a
+                    class="fa fa-linkedin"
+                    href="https://in.linkedin.com/company/nigus-systems"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <!--   <div class="col-lg-4 col-sm-8">
+              <P class="footer-classic-title">Office Locations</P>
+              <ul>
+                  <li class="reach-li">
+                  <span class="d-inline-block fa fa-map-marker"></span>
+                  <p class="d-inline-block padding-offset-10">No.7, Old No.143A, 39th Cross, 26th Main, 9th Block, Jayanagar, Bangalore, 560069</p>
+                </li>
+                 <li class="reach-li">
+                  <span class="d-inline-block fa fa-map-marker"></span>
+                  <p class="d-inline-block padding-offset-10">No.3, 2nd floor, Antona Apartments, 3, 2nd Floor Ayyavoo Street, Shenoy Nagar, Chennai - 600030</p>
+                </li>
+               
+              </ul>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+              <P class="footer-classic-title">Sales & Support</P>
+              <ul class="footer-classic-nav-list">
+                <li>
+                  <span class="d-inline-block fa-solid fa-envelope"></span>
+                  <span class="d-inline-block">sales@nigussystems.com</span>
+                </li>
+                 <li>
+                  <span class="d-inline-block fa-solid fa-envelope"></span>
+                  <span class="d-inline-block">saravanaguptha@nigussystems.com</span>
+                </li>
+                 <li>
+                  <span class="d-inline-block fa-solid fa-phone"></span>
+                  <span class="d-inline-block">+91 98806 98312</span>
+                </li>
+              </ul>
+            </div>-->
+          </div>
+        </div>
+
+        <div class="container" style="margin-top: 0">
+          <div class="footer-classic-aside">
+            <p class="rights">
+              <span>©�&nbsp;</span><span class="copyright-year"></span> Nigus
+              Systems Pvt Ltd
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </body>
+</html>
